@@ -1,1 +1,5 @@
-"def greet():\n    print('Hello, St. Clair!')\n\nif __name__ == '__main__':\n    greet()" 
+def greet(name="St. Clair"):
+    print(f"Hello, {name}!")
+
+if __name__ == "__main__":
+    greet("College")
